@@ -20,9 +20,6 @@ class Rectangle:
     def width(self):
         """
         Get the width of the rectangle.
-
-        Returns:
-        int: The width of the rectangle.
         """
         return (self.__width)
 
@@ -30,9 +27,6 @@ class Rectangle:
     def width(self, value):
         """
         Set the width of the rectangle with validation checks.
-
-        Args:
-        value (int): The new width value.
         """
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
@@ -54,9 +48,6 @@ class Rectangle:
     def height(self, value):
         """
         Set the height of the rectangle
-
-        Args:
-        value (int): The new height value.
         """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
